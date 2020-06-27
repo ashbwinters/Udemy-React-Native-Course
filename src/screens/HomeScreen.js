@@ -35,6 +35,10 @@ export default function HomeScreen({ navigation }) {
         title='Go to Texting Demo'
         onPress={() => navigation.navigate('Texting')}
       />
+       <Button
+        title='Go to Box Demo'
+        onPress={() => navigation.navigate('Box')}
+      />
     </View>
   )
 };
